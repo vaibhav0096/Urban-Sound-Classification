@@ -1,11 +1,5 @@
 # Urban-Sound-Classification
 
-## [Web App Repo](https://github.com/AmritK10/Urban-Sound-Classification-Webapp)
-
-## References
-
-Salamon, J., & Bello, J. P. (2017). Deep convolutional neural networks and data augmentation for environmental sound classification. IEEE Signal processing letters, 24(3), 279-283. https://doi.org/10.1109/LSP.2017.2657381
-
 ## Dataset
 
 The UrbanSound8k dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes: air_conditioner, car_horn, children_playing, dog_bark, drilling, enginge_idling, gun_shot, jackhammer, siren, and street_music. The classes are drawn from the urban sound taxonomy.All excerpts are taken from field recordings uploaded to www.freesound.org.<br/>
@@ -26,12 +20,7 @@ The UrbanSound8k dataset used for model training, can be downloaded from the fol
 
 10 Fold Cross Val Accuracy for NN using original data: 57.43% <br/>
 10 Fold Cross Val Accuracy for CNN using original data: 62.61% <br/>
-10 Fold Cross Val Accuracy for CNN using augmented data: 63.90% <br/>
-
-## Future Work
-
-Extend data more by using different parameters for augmentation <br/>
-Apply Hyperparameter optimization and test different architectures <br/>
+10 Fold Cross Val Accuracy for 2-level-CNN using augmented data: 89.90% <br/>
 
 ## Features Extracted
 
